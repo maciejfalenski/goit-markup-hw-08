@@ -1,0 +1,11 @@
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+.section--placement {
+  display: flex;
+  justify-content: space-between;
+}
+.section--placement > .section__item:not(:last-child) {
+  margin-right: 30px;
+}

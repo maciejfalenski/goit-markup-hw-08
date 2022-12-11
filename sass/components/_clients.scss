@@ -1,0 +1,13 @@
+.client__icon--border {
+  width: 170px;
+  height: 92px;
+  border: #afb1b8 1px solid;
+  border-radius: 4px;
+  transition-property: border;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.client__icon--border:hover {
+  border: #2196f3 1px solid;
+  --color1: var(--hover-color);
+}

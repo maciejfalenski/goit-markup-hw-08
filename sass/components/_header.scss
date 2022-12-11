@@ -1,0 +1,38 @@
+.header--background-color {
+  background-color: #2f303a;
+  background-image: url(../images/header.jpg),
+    linear-gradient(rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4));
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.header--placement {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header--padding {
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+.header__button--colors {
+  background-color: var(--hover-color);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  border: 0px;
+  border-radius: 4px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 42px;
+  padding-right: 41px;
+}
+.header__button--placement {
+  display: flex;
+  justify-content: center;
+  padding-top: 4px;
+}

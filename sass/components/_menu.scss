@@ -1,0 +1,85 @@
+.menu__logo {
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+}
+
+.menu__logo--color {
+  color: var(--hover-color);
+}
+
+.menu__nav--text {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__nav--text:hover,
+.menu__nav--text:focus {
+  color: var(--hover-color);
+}
+
+.menu__nav-agencja--decoration {
+  position: relative;
+}
+
+.menu__nav-agencja--decoration::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  width: 100%;
+  bottom: -32px;
+  left: 0px;
+}
+
+.menu__nav-portfolio--decoration {
+  position: relative;
+}
+
+.menu__nav-portfolio--decoration::after {
+  position: absolute;
+  content: "";
+  height: 4px;
+  background-color: #2196f3;
+  border-radius: 2px;
+  width: 100%;
+  bottom: -32px;
+  left: 0px;
+}
+
+.menu__contact--text {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  color: #757575;
+  transition-property: color, stroke;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.menu__contact--text:hover,
+.menu__contact--text:focus {
+  color: var(--hover-color);
+  stroke: var(--hover-color);
+}
+.menu__nav--placement {
+  display: flex;
+}
+.menu__nav--placement > .menu__nav-item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.menu__logo--placement {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  padding-bottom: 25px;
+}
