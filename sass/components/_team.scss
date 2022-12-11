@@ -66,10 +66,9 @@
       fill: var(--white-item-color);
       background-color: var(--hoover-color);
     }
-  }
-
-  .team__icon--item > use {
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    .team__icon--item > use {
+      filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
   }
 }
 

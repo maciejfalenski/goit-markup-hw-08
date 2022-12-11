@@ -19,8 +19,6 @@
     />
   </head>
   <body>
-    <!-- ---------HEADER---------  -->
-
     <header>
       <div class="header">
         <h2>
@@ -31,7 +29,9 @@
         <div>
           <nav>
             <ul class="navigation">
-              <li><a class="navigation__link" href="index.html">Agencja</a></li>
+              <li>
+                <a class="navigation__link" href="index.html">Agencja</a>
+              </li>
               <li>
                 <a
                   class="navigation__link navigation__underline"
@@ -49,7 +49,7 @@
               <a class="contacts__link" href="mailto:info@devstudio.com">
                 <svg class="contacts__link--envelope">
                   <use
-                    xlink:href="./images/sprite-svg/icons.svg#envelope"
+                    href="./images/sprite-svg/icons.svg#icon-envelope-1"
                   ></use>
                 </svg>
                 info@devstudio.com</a
@@ -59,7 +59,7 @@
               <a class="contacts__link" href="tel:+48111111111"
                 ><svg class="contacts__link--smartphone">
                   <use
-                    xlink:href="./images/sprite-svg/icons.svg#smartphone"
+                    href="./images/sprite-svg/icons.svg#icon-smartphone"
                   ></use>
                 </svg>
                 +48 111 111 111</a
@@ -67,10 +67,19 @@
             </li>
           </ul>
         </div>
+        <div>
+          <button
+            class="mobile js-open-menu"
+            aria-expanded="false"
+            aria-controls="mobile-menu"
+          >
+            <svg class="mobile__menu-icon">
+              <use href="./images/sprite-svg/icons.svg#mobile-menu-open"></use>
+            </svg>
+          </button>
+        </div>
       </div>
     </header>
-
-    <!-- ---------MAIN--------- -->
 
     <main>
       <section class="section">
@@ -282,13 +291,11 @@
       </section>
     </main>
 
-    <!-- ---------FOOTER--------- -->
-
     <footer class="footer">
       <div class="container footer__wrapper">
         <div class="footer__info-box">
           <h3>
-            <a class="footer__link footer__logo" href="index.html"
+            <a class="footer__link footer__logo" href="#"
               >Web<span class="footer__span">Studio</span></a
             >
           </h3>
@@ -315,7 +322,7 @@
                 height="20px"
                 x="12"
                 y="12"
-                xlink:href="./images/sprite-svg/icons.svg#instagram"
+                href="./images/sprite-svg/icons.svg#icon-instagram"
               ></use>
             </svg>
             <svg class="join__icons">
@@ -324,7 +331,7 @@
                 height="20px"
                 x="12"
                 y="12"
-                xlink:href="./images/sprite-svg/icons.svg#twitter"
+                href="./images/sprite-svg/icons.svg#icon-twitter"
               ></use>
             </svg>
             <svg class="join__icons">
@@ -333,7 +340,7 @@
                 height="20px"
                 x="12"
                 y="12"
-                xlink:href="./images/sprite-svg/icons.svg#facebook"
+                href="./images/sprite-svg/icons.svg#icon-facebook"
               ></use>
             </svg>
             <svg class="join__icons">
@@ -342,7 +349,7 @@
                 height="20px"
                 x="12"
                 y="12"
-                xlink:href="./images/sprite-svg/icons.svg#linkedin"
+                href="./images/sprite-svg/icons.svg#icon-linkedin"
               ></use>
             </svg>
           </div>
@@ -356,12 +363,15 @@
               class="newsletter__input"
               type="email"
               id="email"
+              name="email"
               placeholder="   E-mail"
             />
             <button class="newsletter__submit" type="submit">
               Zapisz się
               <svg class="newsletter__icon--send">
-                <use href="./images/sprite-svg/icons.svg#send-icon"></use>
+                <use
+                  href="./images/sprite-svg/icons.svg#newsletter-send-icon"
+                ></use>
               </svg>
             </button>
           </form>
