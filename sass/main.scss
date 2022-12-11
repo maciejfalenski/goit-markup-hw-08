@@ -1,17 +1,15 @@
 @import "./utils/variables";
-@import "./utils/reset";
-@import "./utils/container";
-@import "./utils/section";
-@import "./utils/gap-delete";
 @import "./utils/backdrop";
-@import "./utils/is-hidden";
+@import "./utils/hidden";
 
-@import "./components/menu";
+@import "./components/global";
 @import "./components/header";
-@import "./components/strenghts";
-@import "./components/team";
-@import "./components/footer";
+@import "./components/banner";
+@import "./components/informations";
 @import "./components/services";
-@import "./components/card-set";
+@import "./components/team";
 @import "./components/clients";
+@import "./components/menu";
+@import "./components/catalogue";
+@import "./components/footer";
 @import "./components/modal";
